@@ -23,12 +23,12 @@ let popUp = document.querySelector('.popup');
 
 modeBtns[0].addEventListener('click', ()=>{
     isSinglePlayer = false;
-    popUp.style.left = "145%"
+    popUp.style.display = "none"
     blackBg.style.display = "none"
 })
 modeBtns[1].addEventListener('click', ()=>{
     isSinglePlayer = true;
-    popUp.style.left = "145%"
+    popUp.style.display = "none"
     blackBg.style.display = "none"
 })
 
